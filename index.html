@@ -1,13 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>DEMO site</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anil Monitor | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
-    <h1>HIii! I AM ANIL MONITOR </h1>
+
+  <!-- Navbar -->
+  <nav>
+    <h2>Anil Monitor</h2>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Tech Stack</a></li>
+    </ul>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h1>About Me</h1>
+    <p>
+      Hi, I am <strong>Anil Monitor</strong>, a passionate web developer who loves
+      building clean and user-friendly web applications. I enjoy working with
+      modern technologies and improving my skills every day.
+    </p>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="section light">
+    <h1>Resume</h1>
+    <div class="resume-box">
+      <p><strong>Name:</strong> Anil Monitor</p>
+      <p><strong>Role:</strong> Frontend / MERN Developer</p>
+      <p><strong>Education:</strong> B.Tech (Computer Science)</p>
+      <p><strong>Experience:</strong> Fresher</p>
+      <button onclick="downloadResume()">Download Resume</button>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h1>Projects</h1>
+
+    <div class="project-grid">
+
+      <div class="project-card">
+        <img src="https://picsum.photos/400/250?tech" alt="Project 1">
+        <h3>Student Portal</h3>
+        <p>MERN-based student management system.</p>
+      </div>
+
+      <div class="project-card">
+        <img src="https://picsum.photos/400/250?code" alt="Project 2">
+        <h3>Attendance System</h3>
+        <p>Fingerprint attendance system.</p>
+      </div>
+
+      <div class="project-card">
+        <img src="https://picsum.photos/400/250?website" alt="Project 3">
+        <h3>Event Gallery</h3>
+        <p>Responsive event gallery website.</p>
+      </div>
+
+      <div class="project-card">
+        <img src="https://picsum.photos/400/250?programming" alt="Project 4">
+        <h3>Portfolio Website</h3>
+        <p>Personal portfolio using HTML, CSS & JS.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Tech Stack Section -->
+  <section id="skills" class="section light">
+    <h1>Tech Stack</h1>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>React</span>
+      <span>Node.js</span>
+      <span>Express</span>
+      <span>MongoDB</span>
+      <span>MySQL</span>
+      <span>Git & GitHub</span>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Anil Monitor. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
